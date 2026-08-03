@@ -22,10 +22,10 @@ function Navbar() {
     ]
     return (
         <>
-            <nav className='bg-white/80 w-full shadow-sm backdrop-blur-md fixed top-0 left-0 z-50'>
-                <div className="app-container p-1 flex justify-between items-center h-16">
+            <nav className='bg-white/60 w-full shadow-sm backdrop-blur-md fixed top-0 left-0 z-50'>
+                <div className="app-container p-3 flex justify-between items-center h-16">
                     {/* logo */}
-                    <span className="p-3 gradient-text text-2xl font-bold">Ai Types</span>
+                    <span className="gradient-text text-2xl font-bold">Tailwind Project</span>
                     {/* dektop links */}
                     <div className="d-links hidden md:flex items-center space-x-4">
                         {links.map((link) => {
