@@ -1,7 +1,7 @@
 import Navbar from '../components/layout/Navbar'
 import Footer from '../components/layout/Footer'
 import HeroSection from '../components/HeroSection'
-import AiTypes from '../components/AiBenefits'
+import AiTypes from '../components/AiTypes'
 import AiBenefits from '../components/AiBenefits'
 import Contact from '../components/Contact'
 
