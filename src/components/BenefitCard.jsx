@@ -16,7 +16,7 @@ export default function BenefitCard() {
                                 {card.icon}
                             </div>
                             <div className="bottom">
-                                <h2 className="font-bold">{card.title}</h2>
+                                <h2 className="font-bold text-xl">{card.title}</h2>
                                 <p className="text-gray-400 tracking-tight">
                                     {card.description}
                                 </p>
