@@ -1,16 +1,50 @@
-# React + Vite
+# Tailwind Project — AI Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, fully responsive landing page built with **React**, **Vite**, and **Tailwind CSS**. The page showcases a fictional AI brand with sections for hero content, AI types, benefits, and contact.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive layout (mobile-first) with a collapsible navbar
+- Smooth-scroll anchor navigation
+- Hero section with avatars and gradient typography
+- AI types section with interactive cards
+- AI benefits section
+- Contact section with contact details
+- Newsletter subscription in the footer
+- Custom Tailwind CSS v4 theme with branded colors and Inter font
+- Custom reusable component classes defined in `App.css`
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev) 19
+- [Vite](https://vite.dev) 8
+- [Tailwind CSS](https://tailwindcss.com) 4 (via `@tailwindcss/vite`)
+- [Bootstrap](https://getbootstrap.com) 5
+- [react-icons](https://react-icons.github.io/react-icons)
+- [Oxlint](https://oxc.rs) for linting
 
-## Expanding the Oxlint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```
+src/
+├── App.jsx               # App entry
+├── App.css               # Tailwind theme + custom component classes
+├── main.jsx              # React root render
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.jsx    # Fixed navbar with mobile menu
+│   │   └── Footer.jsx    # Footer with newsletter & links
+│   ├── HeroSection.jsx   # Hero section
+│   ├── AiTypes.jsx       # AI types grid
+│   ├── AiBenefits.jsx    # Benefits section
+│   ├── Contact.jsx       # Contact section
+│   └── ...data files     # Static content & data
+└── pages/
+    └── Home.jsx          # Landing page composition
+```
+
+## 👨‍💻 Developer
+
+Developed by **Eng. Seif Eldeen Mohamed**
+
+- **LinkedIn:** [Seif Eldeen Mohamed](https://www.linkedin.com/in/seifeldeen-div/)

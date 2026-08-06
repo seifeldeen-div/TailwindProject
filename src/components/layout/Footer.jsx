@@ -27,9 +27,9 @@ function Footer() {
                         <div className="bottom my-15">
                             <h3 className="text-lg tracking-wider font-bold text-white py-5">Stay Updated</h3>
                             <p className="text-gray-500 w-95">Subscribe to our newsletter for the latest AI insights and company news.</p>
-                            <form action="" className="space-x-4 mt-5">
-                                <input type="email" className="footer-newsletter-input" placeholder="Enter Your Email" />
-                                <input className="btn-primary cursor-pointer sm:mt-3" type="submit" value='Subscribe' />
+                            <form action="" className="space-x-4 mt-5 space-y-2">
+                                <input type="email" className="footer-newsletter-input w-full" placeholder="Enter Your Email" />
+                                <input className="btn-primary cursor-pointer sm:mt-3 w-full" type="submit" value='Subscribe' />
                                 <div className="pl-3 p-2 text-[12px] text-gray-500">We respect your privacy. Unsubscribe at any time.</div>
                             </form>
                         </div>
@@ -54,7 +54,7 @@ function Footer() {
                             <li className="hover:translate-x-1.5 transition hover:text-primary"><a className="flex items-center" href="#"><IoIosArrowForward className="mr-3" />Help Center</a></li>
                         </ul>
                     </div>
-                    {/* <div className="absolute bottom-2 px-3 lg:my-7 lg:bottom-1 w-full h-px bg-gray-700"></div> */}
+                    <div className="absolute bottom-1 px-3 lg:my-7 lg:bottom-1 w-full h-px bg-gray-700"></div>
                 </div>
                 <div className="app-container flex flex-col md:flex-row justify-between items-center gap-2 py-3 text-xs lg:text-base">
                     <div className="text-gray-400 text-center md:text-left text-sm">
@@ -69,7 +69,7 @@ function Footer() {
                         </a>
                         . All rights reserved.
                     </div>
-                    <div className="flex flex-wrap justify-center gap-3 text-[13px] text-gray-300">
+                    <div className="hidden lg:flex flex-wrap justify-center gap-3 text-[13px] text-gray-300">
                         <a className="hover:text-gray-300 transition-all" href="/#">
                             Terms of Service
                         </a>
