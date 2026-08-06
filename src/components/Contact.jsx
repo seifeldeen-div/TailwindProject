@@ -2,7 +2,7 @@ import { contactDetails } from "./ContactData"
 
 function Contact() {
     return (
-        <section className="app-container py-16">
+        <section id="contact" className="app-container py-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 {/* contact info */}
                 <div>

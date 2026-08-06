@@ -54,7 +54,7 @@ function Footer() {
                             <li className="hover:translate-x-1.5 transition hover:text-primary"><a className="flex items-center" href="#"><IoIosArrowForward className="mr-3" />Help Center</a></li>
                         </ul>
                     </div>
-                    <div className="absolute bottom-2 px-3 lg:my-7 lg:bottom-1 w-full h-px bg-gray-700"></div>
+                    {/* <div className="absolute bottom-2 px-3 lg:my-7 lg:bottom-1 w-full h-px bg-gray-700"></div> */}
                 </div>
                 <div className="app-container flex flex-col md:flex-row justify-between items-center gap-2 py-3 text-xs lg:text-base">
                     <div className="text-gray-400 text-center md:text-left text-sm">
